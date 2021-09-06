@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-color: chartreuse;
+    margin: 0%;
+}
+
+h1, p {
+    color: peru;
+    font-family: 'Indie Flower', cursive;
+}
+.lorem1 {
+    color: dodgerblue;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 4em;
+}
+/* acá como el div es padre del p, es por lo que le da una especificidad más alta al p, porque el p solo tiene valor de 0, 0, 1; en cambio dentro del div tiene 0, 0, 2*/
+div p {  
+    color: blueviolet;   
+    font-weight: 900;
+    font-size: 2em;
+}
+div {
+    background-color: coral;
+    margin: 4%;
+    padding: 5% 5% 10% 10%;
+    border-radius: 10px;
+}
+.lorem {
+    color: crimson;
+}
+
+p {
+    color: darkgrey;
+}

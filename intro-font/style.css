@@ -1,0 +1,27 @@
+* {
+    background-color: blanchedalmond;
+
+}
+H1 {
+    color: cornflowerblue;
+    font-size: 72px;
+    background-color: darksalmon;
+
+}
+div {
+    background-color: darkseagreen;
+    margin-top: 5%;
+}
+
+.div-distinto {
+    background-color: darkturquoise;
+}
+ul li { 
+    list-style-type:square;
+    color: midnightblue;
+}
+#lorem span {
+    color:rgb(24, 24, 248);
+    background-color: mintcream;
+    cursor: pointer;
+}
